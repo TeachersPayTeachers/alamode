@@ -1875,7 +1875,7 @@ var alamode = {
         // Optional
         aggregator = o["aggregate_function"] || "Count",
         selectedRenderer = o["pivot_table_type"] || "Table",
-        title = o["default_column_value"] || queryName,
+        title = o["title"] || queryName,
         htmlElement = o["html_element"] || "body";
 
     var data = alamode.getDataFromQuery(queryName),
